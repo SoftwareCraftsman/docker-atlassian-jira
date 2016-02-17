@@ -15,8 +15,8 @@ eval `docker-machine env atlassian` <3>
 ## Run a JIRA instance
 
 ```sh
-docker pull softwarecraftsmen/atlassian-servicedesk
-docker run -d --name servicedesk -p 8080:8080 atlassian-servicedesk
+docker pull softwarecraftsmen/atlassian-jira
+docker run -d --name jira -p 8080:8080 atlassian-jira
 ```
 
 Startup after creating a container takes some time as the installation and configuration process is continuing.
