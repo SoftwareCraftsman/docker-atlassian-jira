@@ -1,5 +1,8 @@
 # README
 
+[![](https://badge.imagelayers.io/softwarecraftsmen/atlassian-jira:latest.svg)](https://imagelayers.io/?images=softwarecraftsmen/atlassian-jira:latest)
+
+
 ## Prepare a docker host
 
 ```sh
