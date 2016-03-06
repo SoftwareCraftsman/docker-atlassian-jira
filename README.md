@@ -1,6 +1,6 @@
 # README
 
-[![](https://badge.imagelayers.io/softwarecraftsmen/atlassian-jira:latest.svg)](https://imagelayers.io/?images=softwarecraftsmen/atlassian-jira:latest)
+[![](https://badge.imagelayers.io/softwarecraftsmen/atlassian-jira-software:latest.svg)](https://imagelayers.io/?images=softwarecraftsmen/atlassian-jira-software:latest)
 
 
 ## Prepare a docker host
@@ -18,8 +18,8 @@ eval `docker-machine env atlassian` <3>
 ## Run a JIRA instance
 
 ```sh
-docker pull softwarecraftsmen/atlassian-jira
-docker run -d --name jira -p 8080:8080 atlassian-jira
+docker pull softwarecraftsmen/atlassian-jira-software
+docker run -d --name jira -p 8080:8080 atlassian-jira-software
 ```
 
 Startup after creating a container takes some time as the installation and configuration process is continuing.
