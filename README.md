@@ -15,6 +15,12 @@ eval `docker-machine env atlassian` <3>
 2. Start the docker machine
 3. Setup the docker client to use the docker-machine
 
+## Build the image
+
+```sh
+docker build -t softwarecraftsmen/atlassian-jira-software .
+```
+
 ## Run a JIRA instance
 
 ```sh
@@ -26,6 +32,6 @@ Startup after creating a container takes some time as the installation and confi
 So be patient until the start page for license registration can be opened.
 
 To open the JIRA start page on Mac OSX run from the shell:
-```
+```sh
 open http://`docker-machine ip atlassian`:8080
 ```
